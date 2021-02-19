@@ -157,6 +157,8 @@ $base: #FF063D;
 .input-group{
 	input{
 		height: 40px;
+		outline: none;
+		box-shadow: none;
 	}
 
 	::placeholder{
@@ -169,7 +171,8 @@ $base: #FF063D;
 	width: 50% !important;
 	margin-right: 300px;
 
-	  .btn-primary {
+
+	.btn-primary {
     background-color: $base !important;
     border-radius: 3px;
     border: none;
@@ -177,12 +180,14 @@ $base: #FF063D;
 
 }
 
-   .btn-primary:focus{
-  	outline: none;
-    outline-width: 0;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
+  .btn-primary:focus{
+  color: #fff;
+  background-color: none;
+  border: 0;
+  border-color: #fff;
+  outline: none !important;
+  box-shadow: none !important;
+  
 }
 
 }
@@ -201,8 +206,8 @@ input.form-control:focus {
     border: solid 1px black;
     background-color: #F7F8FD;
 
-      outline:none !important;
-    outline-width: 0 !important;
+    outline: none;
+    outline-width:0;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
