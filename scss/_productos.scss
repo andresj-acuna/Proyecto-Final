@@ -62,12 +62,24 @@
 	// .card-group .card
 
 	.card{
-		width: 50%;
+		width: 100%;
 		margin: 10px 10px;
+
+	
 
 
 		img{
-			width: 70%;
+		       
+		       width: 60%;
+	
+			// vertical-align: top;
+	  //       width: 400px;
+
+			.zoom{
+				transition: transform .9s;
+			}
+
+
 		}
 
 		p{
@@ -79,7 +91,8 @@
 
     .card:hover{
     	box-shadow: 2px 2px 10px #666;
-    	transform:scale(1.25);
+    	cursor: pointer;
+    	transform: scale(1.02);
     }
 
 
