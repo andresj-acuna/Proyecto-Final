@@ -27,3 +27,88 @@
 		@include styleCards(100%, flex, center, 20px);
 	}
 }
+
+
+section{
+
+}
+
+h1 {
+	margin: 250px 0px;
+	font-size: 60px;
+	text-align: center;
+
+
+	span{
+		color: $base;
+		border-bottom: 3px solid $base;
+
+	}
+}
+
+ .container-fluid{
+       padding-right: 0px;
+       padding-left: 0px;
+     }
+
+
+
+ // .contenedor{
+ // 	display: flex;
+ // 	width: 100%;
+ // 	justify-content: center;
+ // 	border: 2px solid red;
+ // }  
+
+.sectionGaleria{
+	
+
+}
+
+  .galeria {
+	
+	background-color: #080e05;
+	// border: 2px solid green;
+	width: 100%;
+	// border: 2px solid green;
+	display: flex;
+
+	.centrarh3{
+	width: 100%;
+	
+	display: flex;
+
+	h3{
+		font-size: 40px;
+		color: #fff;
+		// border: 2px solid yellow;
+		height: 100px;
+		align-self: center;
+		text-align: center;
+
+		span{
+		color: $base;
+		border-bottom: 3px solid $base;
+
+	}
+}
+	
+}
+  
+
+
+	
+		
+}
+
+	.tumblr{
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  cursor: pointer;
+  opacity: .5;
+     
+
+	}
