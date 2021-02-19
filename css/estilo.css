@@ -279,8 +279,43 @@ h1 {
 
 .contenedorProductos {
   width: 90%;
-  max-width: 1000px;
-  margin: 20px auto; }
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: left; }
+  .contenedorProductos .titulosProductos {
+    width: 30%; }
+    .contenedorProductos .titulosProductos h2 {
+      font-size: 30px; }
+    .contenedorProductos .titulosProductos hr {
+      width: 180px;
+      height: 10px;
+      display: inline-block; }
+    .contenedorProductos .titulosProductos h4 {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #FF063D; }
+    .contenedorProductos .titulosProductos label {
+      display: inline; }
+    .contenedorProductos .titulosProductos ul {
+      padding-inline-start: 0; }
+      .contenedorProductos .titulosProductos ul li {
+        list-style: none; }
+        .contenedorProductos .titulosProductos ul li a {
+          color: #000; }
+  .contenedorProductos .imagenesProductos {
+    width: 70%; }
+    .contenedorProductos .imagenesProductos .card {
+      width: 50%;
+      margin: 10px 10px; }
+      .contenedorProductos .imagenesProductos .card img {
+        width: 70%; }
+      .contenedorProductos .imagenesProductos .card p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600; }
+    .contenedorProductos .imagenesProductos .card:hover {
+      box-shadow: 2px 2px 10px #666;
+      transform: scale(1.25); }
 
 form {
   color: #36A0FF;
