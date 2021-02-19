@@ -151,6 +151,87 @@ $base: #FF063D;
 
 	    // .menu-hamburguesa{
 		 	// margin-right: 40px;
+          
+       
+
+.input-group{
+	input{
+		height: 40px;
+	}
+
+	::placeholder{
+		font-size: 15px;
+	}
+}
+
+
+.searchBar {
+	width: 50% !important;
+	margin-right: 300px;
+
+	  .btn-primary {
+    background-color: $base !important;
+    border-radius: 3px;
+    border: none;
+    padding: 0 15px;
+
+}
+
+   .btn-primary:focus{
+  	outline: none;
+    outline-width: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+}
+
+
+  .form-control {
+    
+    border: 1.5px solid #E3E6ED;
+    
+}
+
+
+
+input.form-control:focus {
+    
+    border: solid 1px black;
+    background-color: #F7F8FD;
+
+      outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+   }
+
+
+
+
+
+
+       // .searchBar{
+       // 	display: flex;
+       // 	justify-content: center;
+       // 	width: 100%;
+
+       //  .btn {
+       //  	border-right: 0px;
+       //  	padding-right: 0px;
+       //  	margin-right: 0px;
+       //  	margin-bottom: 0;
+       //       }
+
+       //  .btnSearch{
+       //  	color: grey;
+       //  	width: 5%;
+       //  	padding-bottom: 0;
+       //  }
+
+       // }
 
 		 	
 
@@ -233,6 +314,7 @@ $base: #FF063D;
 	height: 100px;
 	// border: 3px solid red;
 	justify-content: center;
+	margin-top: 50px;
 
    .hardware-img{
 
