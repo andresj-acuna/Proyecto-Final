@@ -318,7 +318,7 @@ h1 {
     .contenedorProductos .imagenesProductos .card:hover {
       box-shadow: 2px 2px 10px #666;
       cursor: pointer;
-      transform: scale(1.05); }
+      transform: scale(1.1); }
 
 form {
   color: #36A0FF;
