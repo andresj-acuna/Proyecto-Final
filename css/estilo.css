@@ -435,7 +435,7 @@ h1 {
       list-style: none;
       padding-left: 0; }
       .sectionNosotros .sectionNosotrosLinks .lists .link-active {
-        border-bottom: 1px solid #FF063D; }
+        border-bottom: 2px solid #FF063D; }
       .sectionNosotros .sectionNosotrosLinks .lists .link-active a {
         color: #343636;
         font-weight: bold; }
@@ -444,7 +444,7 @@ h1 {
         line-height: 1;
         border-bottom: 1px solid transparent; }
       .sectionNosotros .sectionNosotrosLinks .lists li:hover {
-        border-bottom: 1px solid #FF063D; }
+        border-bottom: 2px solid #FF063D; }
       .sectionNosotros .sectionNosotrosLinks .lists li a {
         text-decoration: none;
         color: #343636; }
@@ -468,7 +468,7 @@ h1 {
     margin-bottom: 45px;
     margin-left: 0; }
   .sectionNosotros .sectionNosotrosTextos .cont-vm {
-    margin-bottom: 62px;
+    margin-bottom: 80px;
     padding-left: 32px;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -477,29 +477,47 @@ h1 {
       font-size: 31px;
       margin-top: 0;
       margin-bottom: 30px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       font-wieght: bold;
-      color: #424143; }
+      color: #424143;
+      line-height: 1; }
+    .sectionNosotros .sectionNosotrosTextos .cont-vm .parrafo {
+      margin-bottom: 10px; }
 
-form {
-  color: #36A0FF;
-  font-size: 27px; }
+.form-group {
+  margin-bottom: 30px; }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    height: 44px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dedede;
+    font-size: 15px; }
+  .form-group textarea {
+    height: 100px; }
+  .form-group ::placeholder {
+    font-size: 15px; }
+  .form-group textarea:focus, .form-group input:focus, .form-group input[type]:focus {
+    background-color: #fff;
+    border-color: #FF063D;
+    border: 2px solid #FF063D;
+    box-shadow: 0 0;
+    outline: 0 none; }
 
-.formulario {
-  padding-top: 1.5em; }
+.btn-contact {
+  height: 50px;
+  width: 262px;
+  border-radius: 8px;
+  background-color: #FF063D;
+  border-color: #FF063D;
+  color: #fff;
+  font-size: 19px;
+  margin-bottom: 50px; }
 
-.anchoForm {
-  width: 50%; }
-
-.centrarForm {
-  width: 100%; }
-
-.paddingEnviar {
-  padding-right: 180px; }
-
-.mapaContacto {
-  padding: 1.5em 0 1.5em 0; }
+.btn-contact:hover {
+  color: #fff; }
 
 footer {
   background-color: #080e05;
