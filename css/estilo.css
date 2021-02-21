@@ -514,10 +514,34 @@ h1 {
   border-color: #FF063D;
   color: #fff;
   font-size: 19px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: center;
+  padding-left: 30px; }
 
 .btn-contact:hover {
   color: #fff; }
+
+.footerContacto .cont-vm {
+  margin-bottom: 200px; }
+  .footerContacto .cont-vm span {
+    padding-left: 35px; }
+  .footerContacto .cont-vm i {
+    color: #FF063D;
+    padding-left: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 15px; }
+  .footerContacto .cont-vm strong {
+    font-weight: bold; }
+
+.cont-vm2 {
+  margin-bottom: 80px;
+  padding-left: 32px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-left: 5px solid #FF063D; }
+  .cont-vm2 span {
+    font-weight: 700; }
 
 footer {
   background-color: #080e05;
