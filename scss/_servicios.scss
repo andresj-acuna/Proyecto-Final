@@ -10,17 +10,28 @@
 
 
 .fondoServicios {
-  /* The image used */
+  // /* The image used */
+  // background-image: url(../assets/img/bg-gaming.jpg);
+  // /* Full height */
+  // height: 100%;
+  // /* Center and scale the image nicely */
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // position: absolute;
+  // // overflow: hidden;
+  // text-align: center;
+  // z-index: -1;
+
   background-image: url(../assets/img/bg-gaming.jpg);
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	min-height: 700px;
+
+	position: relative;
+	// overflow: hidden;
 }
 
 .servicios{
@@ -30,6 +41,9 @@
 		color: $base;
 
 		margin-top: 40px;
+
+		text-align: left;
+		margin-left: 40px;
 
 
 
@@ -45,7 +59,7 @@ hr {
 	height:1px; 
 	border: 0; 
 	border-top: 2px solid $base; 
-	margin: auto; 
+	margin-left: 125px; 
 	padding: 0; 
 	width: 10%;
 	margin-bottom: 100px;
@@ -62,10 +76,8 @@ h4{
 	
 }
 
-h4 .animate__animated.animate__backInLeft {
-  --animate-duration: 2s;
-  --animate-delay: 3s;
-}
+
+
 
 
  h3{
@@ -75,12 +87,73 @@ h4 .animate__animated.animate__backInLeft {
 	margin-left: 40px;
 	text-align: left;
 
-	.animate__animated.animate__backInLeft {
-  --animate-duration: 3s;
-  --animate-delay: 1.2s;
- }
+}
 
  
-}
+
 
 }
+
+.imagenServicio1{
+ 	margin: 50px 0;
+ 	margin-left: 40px;
+ 	width: 20%;
+ 	position: absolute;
+ 	z-index: 100;
+ 	opacity: 0.5;
+ 	display: flex;
+ 	justify-content: flex-end;
+
+ }
+
+ // .imagenServicio2{
+ // 	margin: 50px 0;
+ // 	margin-left: 40px;
+ // 	width: 20%;
+ // 	position: absolute;
+ // 	z-index: 100;
+ // 	opacity: 0.5;
+ // 	display: flex;
+ // 	justify-content: flex-end;
+
+ // }
+
+
+ .sectionArmado{
+ 	background-color: #f2f2f2;
+ 	position: relative;
+ 	top: 500px;
+ 	min-height: 50vh;
+
+   h3{
+   	font-size: 35px;
+	// color: #151515;
+	color: $base;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-left: 40px;
+	text-align: left;
+
+   }
+
+
+ }
+
+ .imagenesArmado{
+ 	margin-bottom: 50px;
+ 	padding-left: 20px;
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	
+
+ }
+
+.footerServicios{
+
+     overflow: hidden;
+     position: relative;
+     top: 500px;
+
+     
+}
+
