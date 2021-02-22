@@ -594,6 +594,10 @@ footer {
     padding: 0 1px; }
   .menu-inicio li a {
     font-size: 9px; }
+    .menu-inicio li a:before {
+      height: 0; }
+    .menu-inicio li a:after {
+      height: 0; }
   .searchBar {
     display: none; }
   .hardware-img {

@@ -23,6 +23,15 @@
 
 .menu-inicio li a {
     font-size: 9px;
+
+    &:before{
+    	height:0;
+    }
+
+    &:after{
+    	height: 0;
+
+    }
 }
 
 
