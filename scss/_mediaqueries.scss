@@ -1,52 +1,253 @@
-@media screen and (min-width: 1px)
+
+
+@media screen and (max-width: 376px)
 {
 
-.redes{
-	  display:none;
-      }
+//////////////// Index + Menu //////////////////
 
-.tituloServicios{
-	            font-size: 2.5rem;
-	            font-family: 'Kufam', cursive;
-	            letter-spacing: 0.1rem;
-                }
 
-.imagenServicios{
-                margin: 10rem 0 5rem 0;
-                width: 60%;
-                }
 
-.subrayado{
-	      border-bottom:solid 2px #c4c9cc;
-          width:15%;
-          height:15px;
-          margin: 0 auto 0 auto;
-          }
+	.logo img {
+    margin-top: 20px;
+    width: 50%;
+}
 
-.subrayado2{
-	        border-bottom:solid 2px #c4c9cc;
-            width: 7%;
-            height:15px;
-            margin: 0 auto 0 auto;
-           }
+.menu-inicio {
+  
+    margin-top: 20px;
+}
 
-.textoServicios{
-	           margin-top: 5em;
-	           font-size: 1rem;
-	           font-family: 'Kufam', cursive;
-	           letter-spacing: 0.1rem;
-	           margin-left: 15px;
-               }
+.menu-inicio li {
+    padding: 0 1px;
+}
 
-#carouselExampleIndicators {
-	                       display:none;
-                           } 
+.menu-inicio li a {
+    font-size: 9px;
+}
 
-.card-group{
-	       padding-top: 11.5em;
-           }
+
+.searchBar {
+	display: none;
+}
+
+
+.hardware-img{
+	display: none;
+}
+
+.contenedor-imagen {
+
+	margin-bottom: -50px;
+	margin-top: -10px;
+
+	.dropdown{
+		
+	.btn {
+	border-right: none;
+	margin-left: 10px;
+	// margin-right: 10px;
+     }
+    .btn-lg{
+    	font-size: 2rem;
+
+    }
+}
+}
+
+.sectionGaleria h1{
+
+	margin: 50px 0;
+	font-size: 20px;
 
 }
+
+.galeria .centrarh3 h3{
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+.card-group{   
+
+	margin-bottom: 20px;
+   padding-left: 5px;
+	.card{
+	width: 90%;
+}
+
+	}
+
+
+
+
+
+////////////////// Productos /////////////////////
+
+
+
+
+
+.titulosProductos{
+		text-align: center;
+	}
+
+.contenedorProductos .titulosProductos h2{
+	font-size: 20px;
+}
+
+.contenedorProductos .titulosProductos hr{
+    width: 110px;
+}
+.contenedorProductos .titulosProductos h4{
+	font-size: 15px;
+}
+
+.contenedorProductos .titulosProductos ul li a{
+	font-size: 12px;
+}
+
+.marcas{
+	display: none;
+}
+
+.imagenesProductos .card-group .card{
+	margin: 10px auto;
+}
+
+.imagenesProductos .card-group .card img{
+	width: 30%;
+}
+
+
+
+
+ ////////////////// Servicios //////////////////////
+
+
+
+
+.servicios h2 {
+font-size: 40px;
+text-align: center;
+// margin-left: 100px;
+}
+
+.servicios hr {
+
+margin-left: 150px;
+
+width: 30%;
+margin-bottom: 200px;
+// width: %;
+}
+
+.servicios h4{
+	font-size: 15px;
+
+}		
+
+.servicios h3{
+	font-size: 35px;
+	margin-top: 300px;
+}
+
+.sectionArmado h3{
+	font-size: 25px;
+}
+
+.imagenesArmado{
+	padding-left: 10px;
+}
+
+
+
+/////////////// Nosotros ///////////////////
+
+
+
+
+.imgNosotros{
+	height: 300px;
+}
+
+
+.sectionNosotros .sectionNosotrosTextos h1{
+	
+		font-size: 40px;
+		margin-bottom: 60px;
+
+
+	}
+
+.sectionNosotros .sectionNosotrosTextos .parrafo{
+	font-size: 13px;
+}
+
+.sectionNosotros .sectionNosotrosTextos .cont-vm h2{
+	font-size: 28px;
+}
+
+
+
+.footerNosotros{
+	top: 1000px;
+}
+
+
+/////////////// Contacto ////////////////////
+
+.footerContacto{
+	top: 400px;
+}
+
+
+}
+
+// .redes{
+// 	  display:none;
+//       }
+
+// .tituloServicios{
+// 	            font-size: 2.5rem;
+// 	            font-family: 'Kufam', cursive;
+// 	            letter-spacing: 0.1rem;
+//                 }
+
+// .imagenServicios{
+//                 margin: 10rem 0 5rem 0;
+//                 width: 60%;
+//                 }
+
+// .subrayado{
+// 	      border-bottom:solid 2px #c4c9cc;
+//           width:15%;
+//           height:15px;
+//           margin: 0 auto 0 auto;
+//           }
+
+// .subrayado2{
+// 	        border-bottom:solid 2px #c4c9cc;
+//             width: 7%;
+//             height:15px;
+//             margin: 0 auto 0 auto;
+//            }
+
+// .textoServicios{
+// 	           margin-top: 5em;
+// 	           font-size: 1rem;
+// 	           font-family: 'Kufam', cursive;
+// 	           letter-spacing: 0.1rem;
+// 	           margin-left: 15px;
+//                }
+
+// #carouselExampleIndicators {
+// 	                       display:none;
+//                            } 
+
+// .card-group{
+// 	       padding-top: 11.5em;
+//            }
+
+
 
 
 @media screen and (min-width: 576px)

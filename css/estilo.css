@@ -485,6 +485,9 @@ h1 {
     .sectionNosotros .sectionNosotrosTextos .cont-vm .parrafo {
       margin-bottom: 10px; }
 
+.footerNosotros {
+  top: 500px; }
+
 .form-group {
   margin-bottom: 30px; }
   .form-group input, .form-group textarea {
@@ -581,36 +584,84 @@ footer {
         color: #FF063D;
         transform: rotate(-45deg) translate(-3px, 3px); }
 
-@media screen and (min-width: 1px) {
-  .redes {
+@media screen and (max-width: 376px) {
+  .logo img {
+    margin-top: 20px;
+    width: 50%; }
+  .menu-inicio {
+    margin-top: 20px; }
+  .menu-inicio li {
+    padding: 0 1px; }
+  .menu-inicio li a {
+    font-size: 9px; }
+  .searchBar {
     display: none; }
-  .tituloServicios {
-    font-size: 2.5rem;
-    font-family: 'Kufam', cursive;
-    letter-spacing: 0.1rem; }
-  .imagenServicios {
-    margin: 10rem 0 5rem 0;
-    width: 60%; }
-  .subrayado {
-    border-bottom: solid 2px #c4c9cc;
-    width: 15%;
-    height: 15px;
-    margin: 0 auto 0 auto; }
-  .subrayado2 {
-    border-bottom: solid 2px #c4c9cc;
-    width: 7%;
-    height: 15px;
-    margin: 0 auto 0 auto; }
-  .textoServicios {
-    margin-top: 5em;
-    font-size: 1rem;
-    font-family: 'Kufam', cursive;
-    letter-spacing: 0.1rem;
-    margin-left: 15px; }
-  #carouselExampleIndicators {
+  .hardware-img {
     display: none; }
+  .contenedor-imagen {
+    margin-bottom: -50px;
+    margin-top: -10px; }
+    .contenedor-imagen .dropdown .btn {
+      border-right: none;
+      margin-left: 10px; }
+    .contenedor-imagen .dropdown .btn-lg {
+      font-size: 2rem; }
+  .sectionGaleria h1 {
+    margin: 50px 0;
+    font-size: 20px; }
+  .galeria .centrarh3 h3 {
+    font-size: 15px;
+    margin-top: 40px; }
   .card-group {
-    padding-top: 11.5em; } }
+    margin-bottom: 20px;
+    padding-left: 5px; }
+    .card-group .card {
+      width: 90%; }
+  .titulosProductos {
+    text-align: center; }
+  .contenedorProductos .titulosProductos h2 {
+    font-size: 20px; }
+  .contenedorProductos .titulosProductos hr {
+    width: 110px; }
+  .contenedorProductos .titulosProductos h4 {
+    font-size: 15px; }
+  .contenedorProductos .titulosProductos ul li a {
+    font-size: 12px; }
+  .marcas {
+    display: none; }
+  .imagenesProductos .card-group .card {
+    margin: 10px auto; }
+  .imagenesProductos .card-group .card img {
+    width: 30%; }
+  .servicios h2 {
+    font-size: 40px;
+    text-align: center; }
+  .servicios hr {
+    margin-left: 150px;
+    width: 30%;
+    margin-bottom: 200px; }
+  .servicios h4 {
+    font-size: 15px; }
+  .servicios h3 {
+    font-size: 35px;
+    margin-top: 300px; }
+  .sectionArmado h3 {
+    font-size: 25px; }
+  .imagenesArmado {
+    padding-left: 10px; }
+  .imgNosotros {
+    height: 300px; }
+  .sectionNosotros .sectionNosotrosTextos h1 {
+    font-size: 40px;
+    margin-bottom: 60px; }
+  .sectionNosotros .sectionNosotrosTextos .parrafo {
+    font-size: 13px; }
+  .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+    font-size: 28px; }
+  .footerNosotros {
+    top: 1000px; }
+  .footerContacto {
+    top: 400px; } }
 
 @media screen and (min-width: 576px) {
   .redesSociales {
