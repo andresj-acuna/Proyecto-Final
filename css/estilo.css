@@ -190,7 +190,7 @@ input.form-control:focus {
 .logo {
   width: 30%; }
   .logo img {
-    width: 50%; }
+    width: 70%; }
 
 .contenedor-imagen {
   display: flex;
@@ -704,5 +704,5 @@ footer {
     .productosInicio .card img {
       width: 60%;
       margin: auto; }
-  .card-body {
-    display: none; } }
+    .productosInicio .card .card-body p {
+      font-size: 7.5px; } }
