@@ -128,22 +128,55 @@
   }
   
   .galeria .centrarh3 h3{
-  	font-size: 30px;
+    margin: auto;
+
+  	font-size: 25px;
   }
 
- .productosInicio .card-group{
+ // .productosInicio .card-group{
  	
- }
+ // }
 
- .produtosInicio .card-group .card{
- 	padding:5px 0;
- }
+ // .produtosInicio .card-group .card{
+ // 	padding:5px 0;
+ // }
 
- .productosInicio .card img{
+ // .productosInicio .card img{
 
- 	width: 30%;
+ // 	width: 30%;
 
- }
+ // }
+
+
+  .cardGroup{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin-top: 20px;
+
+   }
+
+
+ .productosInicio  .card{
+		width: 40%;
+		margin: 20px 5px;
+		padding-top: 20px;
+
+
+	           img{
+		            width: 40%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 12px;
+		}
+	}	
 		
 
 
@@ -164,4 +197,91 @@
    	font-size: 2.5rem;
    }
 
+
+
+     .sectionGaleria h1{
+  	margin: 120px 0;
+  	font-size: 30px;
+  }
+  
+  .galeria .centrarh3 h3{
+
+  	font-size: 12px;
+  	margin-top: 110px;
+  	}
+
+
+   .cardGroup{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin-top: 20px;
+
+   }
+
+
+ .productosInicio  .card{
+		width: 30%;
+		margin: 20px 5px;
+		padding-top: 20px;
+
+
+	           img{
+		            width: 50%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+		p{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 12px;
+		}
+	}	
+	
+
 }
+
+
+@media screen and (max-width: 576px){
+
+	   .menu-inicio li a{
+		font-size: 10px;
+	}
+
+
+	 .sectionGaleria h1{
+  	margin: 100px 0;
+  	font-size: 25px;
+  }
+  
+  .galeria .centrarh3 h3{
+   
+  	font-size: 10px;
+  	}
+        
+        .productosInicio  .card{
+		width: 30%;
+		margin: 20px 5px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+
+
+	           img{
+		            width: 60%;
+		            margin: auto;
+		            // padding-left: 100px;
+	
+	         }
+
+	    
+	}	
+
+	 .card-body{
+		 	display: none;
+
+		 }
+
+	}

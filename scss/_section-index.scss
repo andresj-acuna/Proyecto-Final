@@ -3,9 +3,9 @@
 	padding: $padding;
 }
 
-.estiloSection{
-	@include styleSection(5em, 1em);
-}
+// .estiloSection{
+// 	@include styleSection(5em, 1em);
+// }
 
 
 .backInLeft{
@@ -85,14 +85,16 @@ h1 {
 	width: 100%;
 	
 	display: flex;
+	
 
 	h3{
 		font-size: 40px;
 		color: #fff;
 		// border: 2px solid yellow;
 		height: 100px;
-		align-self: center;
+		// align-self: center;
 		text-align: center;
+		margin: auto;
 
 		span{
 		color: $base;
@@ -122,22 +124,27 @@ h1 {
 	}
 
 
-	.estiloSection{
-		display: flex;
-	justify-content: center;
-	}
+	// .estiloSection{
+	// 	display: flex;
+	// justify-content: center;
+	// }
 
 
 .productosInicio{
 	width: 70%;
 	// font-family: 'Kufam', cursive;
 
+   
+   .cardGroup{
+   	display: flex;
+   	justify-content: center;
 
+   }
 	
 
 		.card{
-		width: 90%;
-		margin: 10px 20px;
+		width: 80%;
+		margin: 200px 5px;
 		padding-top: 20px;
 
 
