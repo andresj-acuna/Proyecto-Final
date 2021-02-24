@@ -159,7 +159,7 @@
 
 
  .productosInicio  .card{
-		width: 40%;
+		width: 60%;
 		margin: 20px 5px;
 		padding-top: 20px;
 
@@ -177,7 +177,10 @@
 			font-size: 12px;
 		}
 	}	
-		
+	
+	.contenedorProductos .imagenesProductos .card-group .card-body p {
+	     font-size: 12px;
+}
 
 
 
@@ -209,7 +212,9 @@
   	font-size: 12px;
   	margin-top: 110px;
   	}
-
+.galeria .centrarh3 h3 span {
+	border-bottom: 2px solid $base;
+}
 
    .cardGroup{
    	display: flex;
@@ -222,7 +227,7 @@
 
 
  .productosInicio  .card{
-		width: 30%;
+		width: 50%;
 		margin: 20px 5px;
 		padding-top: 20px;
 
@@ -241,6 +246,43 @@
 		}
 	}	
 	
+	/////////////////////// Productos ////////////////////////
+
+.contenedorProductos {
+    	width: 100%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+
+    	.titulosProductos{
+    		text-align: center;
+
+    		h2{
+    			font-size: 20px;
+    		}
+
+    		hr{
+    			width: 130px;
+    		}
+
+    		h4{
+    			font-size: 15px;
+    		}
+
+    		.marcas {
+    			display: none;
+    		}
+    	}
+    }
+
+.imagenesProductos{
+	width: 100%;
+}
+
+.contenedorProductos .imagenesProductos .card-group .card-body p {
+	     font-size: 11px;
+}
 
 }
 
@@ -261,27 +303,50 @@
    
   	font-size: 10px;
   	}
+
+  .galeria .centrarh3 h3 span {
+	border-bottom: 1px solid $base;
+}
+
+
+////////////////// Productos ///////////////////////////
         
+       
+
         .productosInicio  .card{
-		width: 30%;
-		margin: 20px 5px;
-		padding-top: 20px;
-		padding-bottom: 10px;
+		width: 40%;
+		margin: 15px 5px;
+		padding-top: 15px;
+		padding-bot: -50px;
+		
 
 
 	           img{
-		            width: 60%;
+		            width: 50%;
 		            margin: auto;
+		            padding-bot: -50px;
 		            // padding-left: 100px;
 	
 	         }
 
+	         .card-body{
+	         	padding-top: 0;
+	         }
+
 	        .card-body p{
-	         	font-size: 7.5px;
+	         	font-size: 9px;
+	         	padding-top: 0;
+	         	margin: 0;
 	         }
 
 	    
 	}	
+
+
+
+	.contenedorProductos .imagenesProductos {
+		width: 50%;
+	}
 
 	 
 
