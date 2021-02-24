@@ -63,6 +63,14 @@
     }
 
 
+/////////////////////// Contacto ////////////////////////
+
+
+.footerContacto{
+	top: 400px;
+}
+
+
 }
 
 
@@ -362,6 +370,12 @@
 	top: 550px;
 }
 
+//////////////////////////// Contacto ///////////////////
+
+.footerContacto{
+	top: 300px;
+}
+
 
 
 }
@@ -430,7 +444,7 @@
 
 	 
    
-   ///////// Nosotros ////////////////////
+   //////////// Nosotros ////////////////////
 
 
    .imgNosotros {
@@ -461,5 +475,39 @@
 }
 
 
+/////////////////// Contacto ////////////////////////
+
+
+.btn-contact{
+	
+    width: 200px;
+    margin-left: 0;
+   
+}
+
+.footerContacto{
+	top: 400px;
+}
+
 
 	}
+
+
+
+@media screen and (max-width: 400px){
+	
+	.footerNosotros{
+     top: 850px;
+}
+
+
+}
+
+@media screen and (max-width: 300px){
+	
+	.footerNosotros{
+     top: 1200px;
+}
+
+
+}
