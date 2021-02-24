@@ -55,6 +55,14 @@
 	font-size: 12px;
 } 
 
+
+/////////////////////// Nosotros /////////////////////////
+
+.imgNosotros {
+        height: 300px;
+    }
+
+
 }
 
 
@@ -182,6 +190,20 @@
 	     font-size: 12px;
 }
 
+////////////////////// Servicios //////////////////////////
+
+
+.sectionArmado h3{
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+//////////////////// Nosotros /////////////////////////////
+
+
+.imgNosotros {
+        height: 250px;
+    }
 
 
 }
@@ -284,6 +306,64 @@
 	     font-size: 11px;
 }
 
+
+
+////////////////// Servicios ////////////////////////
+
+
+.servicios h2{
+		font-size: 50px;
+	}
+
+.servicios hr{
+	margin-bottom: 200px;
+}
+
+.servicios h4{
+	font-size: 15px;
+}
+
+.servicios h3{
+	font-size: 30px;
+}
+
+.sectionArmado h3{
+	font-size: 20px;
+}
+
+
+
+/////////////////// Nosotros ////////////////////////
+
+
+.imgNosotros {
+        height: 200px;
+    }
+
+
+
+    .sectionNosotros .sectionNosotrosTextos h1 {
+
+        font-size: 40px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .parrafo {
+        font-size: 13px;
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+        font-size: 28px;
+    }
+
+    .footerNosotros{
+	top: 550px;
+}
+
+
+
 }
 
 
@@ -349,5 +429,37 @@
 	}
 
 	 
+   
+   ///////// Nosotros ////////////////////
+
+
+   .imgNosotros {
+        height: 180px;
+    }
+
+
+     .sectionNosotros .sectionNosotrosTextos h1 {
+
+        font-size: 40px;
+        margin-bottom: 60px;
+
+
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .parrafo {
+        font-size: 13px;
+    }
+
+    .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+        font-size: 28px;
+    }
+
+
+   
+   .footerNosotros{
+	top: 650px;
+}
+
+
 
 	}

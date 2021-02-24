@@ -407,10 +407,11 @@ h1 {
     text-align: left; }
 
 .imagenesArmado {
-  margin-bottom: 50px;
-  padding-left: 20px;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 50px;
+  margin-right: 0;
+  margin-left: 0;
   width: 100%; }
   .imagenesArmado img {
     width: 90%;
@@ -606,7 +607,9 @@ footer {
   .galeria .centrarh3 h3 {
     font-size: 35px; }
   .productosInicio .card p {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .imgNosotros {
+    height: 300px; } }
 
 @media screen and (max-width: 992px) {
   .menu-inicio li a {
@@ -660,7 +663,12 @@ footer {
       font-weight: 600;
       font-size: 12px; }
   .contenedorProductos .imagenesProductos .card-group .card-body p {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .sectionArmado h3 {
+    font-size: 25px;
+    padding-top: 20px; }
+  .imgNosotros {
+    height: 250px; } }
 
 @media screen and (max-width: 768px) {
   .menu-inicio li a {
@@ -711,7 +719,28 @@ footer {
   .imagenesProductos {
     width: 100%; }
   .contenedorProductos .imagenesProductos .card-group .card-body p {
-    font-size: 11px; } }
+    font-size: 11px; }
+  .servicios h2 {
+    font-size: 50px; }
+  .servicios hr {
+    margin-bottom: 200px; }
+  .servicios h4 {
+    font-size: 15px; }
+  .servicios h3 {
+    font-size: 30px; }
+  .sectionArmado h3 {
+    font-size: 20px; }
+  .imgNosotros {
+    height: 200px; }
+  .sectionNosotros .sectionNosotrosTextos h1 {
+    font-size: 40px;
+    margin-bottom: 60px; }
+  .sectionNosotros .sectionNosotrosTextos .parrafo {
+    font-size: 13px; }
+  .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+    font-size: 28px; }
+  .footerNosotros {
+    top: 550px; } }
 
 @media screen and (max-width: 576px) {
   .menu-inicio li a {
@@ -739,4 +768,15 @@ footer {
       padding-top: 0;
       margin: 0; }
   .contenedorProductos .imagenesProductos {
-    width: 50%; } }
+    width: 50%; }
+  .imgNosotros {
+    height: 180px; }
+  .sectionNosotros .sectionNosotrosTextos h1 {
+    font-size: 40px;
+    margin-bottom: 60px; }
+  .sectionNosotros .sectionNosotrosTextos .parrafo {
+    font-size: 13px; }
+  .sectionNosotros .sectionNosotrosTextos .cont-vm h2 {
+    font-size: 28px; }
+  .footerNosotros {
+    top: 650px; } }
